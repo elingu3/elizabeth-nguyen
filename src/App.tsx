@@ -174,27 +174,29 @@ const logos: Record<string, string> = {
 
   <div className="max-w-3xl text-lg text-slate-600 leading-relaxed space-y-6">
     <p>
-      I’m a Computer Science student at Caltech interested in machine learning and building systems that make sense of complex data. I enjoy working at the intersection of theory and application — turning ideas into tools that are both practical and intuitive.
-    </p>
+  I’m a Computer Science student at Caltech, interested in machine learning and building systems that help make sense of complex data. I like working on problems that connect theory with real-world applications, especially when I can turn an idea into something practical and easy to use.
+</p>
 
-    <p>
-      Recently, I’ve worked on applying machine learning to exoplanet data through research at NASA JPL, and on building interactive tools for data exploration and learning. I’m especially interested in problems where thoughtful design and technical depth come together.
-    </p>
+<p>
+  Recently, I’ve been applying machine learning to exoplanet data through research at NASA JPL, and building interactive tools for exploring and understanding data. I’m drawn to projects where both the technical side and the design really matter.
+</p>
 
-    <p>
-      Outside of academics, I enjoy swimming competitively, pottery, and learning new things — usually with a matcha in hand 🍵.
-    </p>
+<p>
+  Outside of class and the lab, you can probably find me at the pottery studio, checking out cafés, or exploring LA!
+</p>
 
     {/* Current Favorites */}
     <div className="pt-6">
       <h3 className="text-sm uppercase tracking-widest text-slate-400 mb-3">
-        Current Favorites
+        Favorites
       </h3>
-
+      
       <ul className="space-y-2 text-base text-slate-700">
-        <li>🎵 <span className="font-medium">3:15</span> — Bazzi</li>
-        <li>📚 <span className="font-medium">The Silent Patient</span> — Alex Michaelides</li>
-        <li>🎬 <span className="font-medium">Parasite</span></li>
+
+        <li>🎵 <span className="font-medium">a song on repeat: </span>3:15 by Bazzi </li>
+        <li>📚 <span className="font-medium">currently reading: </span>The Silent Patient by Alex Michaelides</li>
+        <li>🎬 <span className="font-medium">last movie I loved: </span>Parasite</li>
+        <li>🧠 <span className="font-medium">currently learning: </span>PyTorch</li>
       </ul>
     </div>
   </div>
