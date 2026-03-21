@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Add this line specifically to force scan your App.tsx */
+@source "./App.tsx"; 
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* In src/index.css */
+html {
+  scroll-behavior: smooth;
+}
+
