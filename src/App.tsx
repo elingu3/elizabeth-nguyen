@@ -4,6 +4,7 @@ import microsoftLogo from "./assets/logos/microsoft_logo.png";
 import caltechLogo from "./assets/logos/caltech.png";
 import codeNinjasLogo from "./assets/logos/codeninjas.png";
 import nasaLogo from "./assets/logos/nasa.png";
+import { Analytics } from "@vercel/analytics/next"
 
 
 export default function App() {
@@ -29,6 +30,7 @@ const logos: Record<string, string> = {
   return (
   
     <div className="max-w-6xl mx-auto px-8 py-14 font-sans text-[#2D2D2D] selection:bg-purple-100">
+    
       
       {/* 1. Header/Nav - Spacing tightened to pull hero up */}
       <header className="flex justify-between items-center mb-12">
@@ -277,7 +279,9 @@ const logos: Record<string, string> = {
           }}
         />
       )}
+      <Analytics />
     </div>
+    
   );
 }
 
