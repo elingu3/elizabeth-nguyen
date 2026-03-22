@@ -37,35 +37,37 @@ const logos: Record<string, string> = {
           <a href="#about" className="hover:text-[#6D5AE6] transition-colors">About</a>
           <a 
             href="/Resume_enguyen.pdf" 
-            download="Elizabeth_Nguyen_Resume.pdf" 
+            target="_blank"
             className="hover:text-[#6D5AE6] transition"
           >
-            CV/Resume
+            Resume/CV
           </a>
         </nav>
       </header>
 
       {/* 2. Hero Section - Swapped layout with text on left */}
-<section id="home" className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center mb-40 pt-10">
-  
-  {/* Left Side: Name and Tagline */}
-  <div className="md:col-span-7">
-    {/* Tightened the tracking (letter spacing) for a high-end look */}
-    <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-[0.9] text-[#2D2D2D] mb-10">
-  hi, i'm <span className="bg-gradient-to-r from-[#CDB4DB] via-[#FFAFCC] to-[#A2D2FF] bg-clip-text text-transparent">elizabeth nguyen</span>!
-</h1>
+      
+        <section id="home" className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center mb-40 pt-10">
+        <div className="md:col-span-7">
+        {/* Left Side: Name and Tagline */}
+        <div className="md:col-span-7">
+            {/* Tightened the tracking (letter spacing) for a high-end look */}
+            <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-[0.9] text-[#2D2D2D] mb-10">
+        hi, i'm <span className="bg-gradient-to-r from-[#CDB4DB] via-[#FFAFCC] to-[#A2D2FF] bg-clip-text text-transparent">elizabeth nguyen</span>!
+        </h1>
 
 
-    {/* Using flex-col here instead of flex-wrap creates a cleaner vertical block */}
-    <div className="flex flex-col gap-4 text-xl md:text-2xl font-normal text-slate-600 max-w-lg leading-relaxed">
-      <p>
-        <span className="inline-block translate-y-0.5 mr-2">👩🏻‍💻</span> 
-        cs @ caltech. interested in machine learning & building impactful systems.
-      </p>
-      <p>
-        fueled by curiosity and matcha <span className="inline-block translate-y-0.5 ml-1">🍵</span>
-      </p>
-    </div>
+            {/* Using flex-col here instead of flex-wrap creates a cleaner vertical block */}
+            <div className="flex flex-col gap-4 text-xl md:text-2xl font-normal text-slate-600 max-w-lg leading-relaxed">
+            <p>
+                <span className="inline-block translate-y-0.5 mr-2">👩🏻‍💻</span> 
+                cs @ caltech. interested in machine learning & building impactful systems.
+            </p>
+            <p>
+                fueled by curiosity and matcha <span className="inline-block translate-y-0.5 ml-1">🍵</span>
+            </p>
+            </div>
+            </div>
 
     {/* Social Links: Increased top margin to separate them from the bio */}
     <div className="mt-16 flex gap-8">
@@ -76,8 +78,8 @@ const logos: Record<string, string> = {
   </div>
 
   {/* Right Side: Photo with a softer presence */}
-  <div className="md:col-span-5 flex justify-center md:justify-end">
-    <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-[#E0D7FF] flex items-center justify-center transition-transform hover:rotate-5 duration-200">
+  <div className="md:col-span-5 flex justify-center md:justify-end md:-mt-30">
+    <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-[#E0D7FF] flex items-center justify-center transition-transform hover:rotate-5 duration-200 md:translate-y-6">
       <img 
         src={myPhoto} 
         alt="Elizabeth" 
