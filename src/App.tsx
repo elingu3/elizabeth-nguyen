@@ -24,7 +24,10 @@ const logos: Record<string, string> = {
   nasa: nasaLogo,
   // add more later
 };
+
+
   return (
+  
     <div className="max-w-6xl mx-auto px-8 py-14 font-sans text-[#2D2D2D] selection:bg-purple-100">
       
       {/* 1. Header/Nav - Spacing tightened to pull hero up */}
@@ -52,19 +55,23 @@ const logos: Record<string, string> = {
         {/* Left Side: Name and Tagline */}
         <div className="md:col-span-7">
             {/* Tightened the tracking (letter spacing) for a high-end look */}
-            <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-[0.9] text-[#2D2D2D] mb-10">
-        hi, i'm <span className="bg-gradient-to-r from-[#CDB4DB] via-[#FFAFCC] to-[#A2D2FF] bg-clip-text text-transparent">elizabeth nguyen</span>!
-        </h1>
+            <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-[0.9] mb-10">
+            hi, i'm{" "}
+            <span className="bg-gradient-to-r from-[#FFAFCC] via-[#A2D2FF] to-[#CDB4DB] bg-[length:200%_200%] bg-clip-text text-transparent transition-all duration-700 hover:bg-[position:100%_0]">
+                elizabeth nguyen
+            </span>
+            !
+            </h1>
 
 
             {/* Using flex-col here instead of flex-wrap creates a cleaner vertical block */}
             <div className="flex flex-col gap-4 text-xl md:text-2xl font-normal text-slate-600 max-w-lg leading-relaxed">
             <p>
-                <span className="inline-block translate-y-0.5 mr-2">👩🏻‍💻</span> 
+                <span className="inline-block translate-y-0.5 mr-2 transition-transform hover:scale-130 duration-300">👩🏻‍💻</span> 
                 cs @ caltech. interested in machine learning & building impactful systems.
             </p>
             <p>
-                fueled by curiosity and matcha <span className="inline-block translate-y-0.5 ml-1">🍵</span>
+                fueled by curiosity and matcha <span className="inline-block translate-y-0.5 ml-1 transition-transform hover:scale-130 duration-300">🍵</span>
             </p>
             </div>
             </div>
@@ -149,8 +156,9 @@ const logos: Record<string, string> = {
               
             >
               <span>
-                <span className="font-medium">Discovery Intern</span> @ Microsoft — user research & prototyping for 1.6M+ users
+                <span className="font-medium">Discovery Intern</span> @ Microsoft
               </span>
+              <span className="text-gray-500"> — user research & prototyping for 1.6M+ users</span>
             </li>
 
             <li
@@ -189,20 +197,75 @@ const logos: Record<string, string> = {
 
     {/* Current Favorites */}
     <div className="pt-6">
-      <h3 className="text-sm uppercase tracking-widest text-slate-400 mb-3">
-        Favorites
+      <h3 className="text-me uppercase tracking-widest text-slate-600 mb-3">
+        Currently:
       </h3>
       
       <ul className="space-y-2 text-base text-slate-700">
 
-        <li>🎵 <span className="font-medium">a song on repeat: </span>3:15 by Bazzi </li>
-        <li>📚 <span className="font-medium">currently reading: </span>The Silent Patient by Alex Michaelides</li>
-        <li>🎬 <span className="font-medium">last movie I loved: </span>Parasite</li>
-        <li>🧠 <span className="font-medium">currently learning: </span>PyTorch</li>
+        <li>🎵 <span className="text-sm uppercase tracking-widest text-slate-400 mb-3">listening to: </span>3:15 by Bazzi </li>
+        <li>📚 <span className="text-sm uppercase tracking-widest text-slate-400 mb-3">reading: </span>The Silent Patient by Alex Michaelides</li>
+        <li>🎬 <span className="text-sm uppercase tracking-widest text-slate-400 mb-3">watching: </span>Parasite</li>
+        <li>🧠 <span className="text-sm uppercase tracking-widest text-slate-400 mb-3">learning: </span>PyTorch</li>
       </ul>
     </div>
   </div>
 </section>
+
+ <footer className="mt-32 pt-10 border-t border-slate-100 text-sm text-slate-500">
+  <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+    
+    {/* Left: Name / message */}
+    <p className="text-center md:text-left">
+      © {new Date().getFullYear()} Elizabeth Nguyen ✨
+    </p>
+
+    {/* Right: Links */}
+    <div className="flex gap-6 text-xs uppercase tracking-[0.2em] font-medium">
+      <a
+        href="https://www.linkedin.com/in/elizabethsnguyen/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-[#6D5AE6] transition-all hover:-translate-y-[1px]"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        href="https://github.com/elingu3"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-[#6D5AE6] transition-all hover:-translate-y-[1px]"
+      >
+        GitHub
+      </a>
+
+      <a
+        href="mailto:enguyen@caltech.edu"
+        className="hover:text-[#6D5AE6] transition-all hover:-translate-y-[1px]"
+      >
+        Email
+      </a>
+    </div>
+  </div>
+
+  {/* Bottom micro-detail */}
+  <div className="mt-8 flex flex-col items-center gap-3">
+    <p className="text-[11px] uppercase tracking-[0.18em] text-slate-400">
+      Built with
+    </p>
+    <div className="flex flex-wrap justify-center gap-2">
+      {["React", "TypeScript", "Tailwind CSS", "Vite"].map((tech) => (
+        <span
+          key={tech}
+          className="rounded-full border border-slate-200 px-3 py-1 text-xs text-slate-500 bg-white"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+  </div>
+</footer>
       {hovered && (
         <img
           src={logos[hovered]}

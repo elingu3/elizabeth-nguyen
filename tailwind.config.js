@@ -2,17 +2,14 @@ import colors from 'tailwindcss/colors';
 
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+
+/** @type {import('tailwindcss').Config} */
+export default {
   theme: {
     extend: {
-      colors: {
-        matcha: "#7BC47F",
+      fontFamily: {
+        sans: ['Montserrat', 'ui-sans-serif', 'system-ui'],
       },
     },
   },
-  plugins: [],
-};
+}
