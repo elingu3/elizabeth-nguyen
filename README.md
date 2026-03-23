@@ -1,12 +1,12 @@
 # 🌐 Personal Portfolio — Elizabeth Nguyen
 
-Hi! I'm Elizabeth — a CS student at Caltech interested in machine learning, systems, and building tools that make sense of complex data.
+Hi! I'm Elizabeth, a CS student at Caltech interested in machine learning and software engineering.
 
 This repository contains the source code for my personal website.
 
 ## ✨ About the Site
 
-This portfolio is designed to be clean, minimal, and intentional. It highlights my experience, projects, and interests, with a focus on:
+I designed my portfolio to be clean, minimal, and intentional. It highlights my experience, projects, and interests, with a focus on:
 
 - Machine learning & data-driven systems  
 - Research (including work with NASA JPL)  
