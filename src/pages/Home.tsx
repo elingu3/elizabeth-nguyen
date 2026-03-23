@@ -4,7 +4,7 @@ import microsoftLogo from "../assets/logos/microsoft_logo.png";
 import caltechLogo from "../assets/logos/caltech.png";
 import codeNinjasLogo from "../assets/logos/codeninjas.png";
 import nasaLogo from "../assets/logos/nasa.png";
-import { Analytics } from "@vercel/analytics/react"
+
 
   export default function Home() {
     const [hovered, setHovered] = useState<string | null>(null);
