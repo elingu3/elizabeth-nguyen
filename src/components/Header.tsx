@@ -11,7 +11,7 @@ export default function Header() {
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 mt-10">
+    <nav className="sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-8 h-20 flex items-center justify-between">
         <Link
           to="/"
