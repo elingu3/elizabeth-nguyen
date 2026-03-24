@@ -27,7 +27,7 @@ export default function Header() {
           <Link to="/projects" className={linkStyle("/projects")}>Projects</Link>
 
           <a
-            href="/Resume_enguyen.pdf"
+            href="/Elizabeth_Nguyen_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 px-4 py-2 rounded-full bg-[#6D5AE6] text-white text-xs font-semibold tracking-wide hover:scale-105 transition"
