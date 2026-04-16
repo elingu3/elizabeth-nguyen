@@ -84,12 +84,14 @@ const logos: Record<string, string> = {
 </section>
 
 
-      {/* 3. Bento Grid Cards (Projects Section) */}
+
+
+      {/* 
       <section id="experience" className="">
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           
-          {/* Caltech Card */}
+          
           <div className="bg-[#BDE0FE] p-10 rounded-[45px] transition-all hover:scale-[1.02] duration-300"
           onMouseEnter={() => setHovered("caltech")}
               onMouseLeave={() => setHovered(null)}
@@ -104,7 +106,7 @@ const logos: Record<string, string> = {
             </p>
           </div>
 
-          {/* NASA JPL Card */}
+          
           <div className="bg-[#FFC8DD] p-10 rounded-[45px] transition-all hover:scale-[1.02] duration-300"
           onMouseEnter={() => setHovered("nasa")}
               onMouseLeave={() => setHovered(null)}
@@ -165,6 +167,7 @@ const logos: Record<string, string> = {
         </div>
       </div>
       </section>
+      */}
       {hovered && (
         <img
           src={logos[hovered]}
