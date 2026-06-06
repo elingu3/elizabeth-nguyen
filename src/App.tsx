@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -29,6 +31,8 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
 
           <Analytics />

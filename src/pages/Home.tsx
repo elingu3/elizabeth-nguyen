@@ -1,29 +1,6 @@
-import { useState } from "react";
 import myPhoto from '../assets/my-notion-face-transparent.png';
-import microsoftLogo from "../assets/logos/microsoft_logo.png";
-import caltechLogo from "../assets/logos/caltech.png";
-import codeNinjasLogo from "../assets/logos/codeninjas.png";
-import nasaLogo from "../assets/logos/nasa.png";
-
 
   export default function Home() {
-    const [hovered, setHovered] = useState<string | null>(null);
-const [position, setPosition] = useState({ x: 0, y: 0 });
-
-const handleMouseMove = (e: React.MouseEvent) => {
-  setPosition({
-    x: e.clientX,
-    y: e.clientY,
-  });
-};
-
-const logos: Record<string, string> = {
-  microsoft: microsoftLogo,
-  caltech: caltechLogo,
-  codeNinjas: codeNinjasLogo,
-  nasa: nasaLogo,
-  // add more later
-};
 
 
 
@@ -168,17 +145,6 @@ const logos: Record<string, string> = {
       </div>
       </section>
       */}
-      {hovered && (
-        <img
-          src={logos[hovered]}
-          alt="logo"
-          className="pointer-events-none fixed z-50 h-20 w-auto object-contain transition-all duration-100 ease-out scale-95 opacity-100"
-          style={{
-            left: position.x,
-            top: position.y,
-          }}
-        />
-      )}
       </div>
       
     

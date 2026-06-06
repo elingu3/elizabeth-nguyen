@@ -25,6 +25,7 @@ export default function Header() {
           <Link to="/experience" className={linkStyle("/experience")}>Experience</Link>
           <Link to="/about" className={linkStyle("/about")}>About</Link>
           <Link to="/projects" className={linkStyle("/projects")}>Projects</Link>
+          <Link to="/blog" className={linkStyle("/blog")}>Blog</Link>
 
           <a
             href="/Elizabeth_Nguyen_Resume.pdf"
