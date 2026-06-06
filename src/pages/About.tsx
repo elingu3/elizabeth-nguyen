@@ -9,7 +9,7 @@ export default function About() {
 </p>
 
 <p>
-  Recently, I’ve been applying machine learning to exoplanet data through research at NASA JPL, and building interactive tools for exploring and understanding data. I’m drawn to projects where both the technical side and the design really matter. Some of my other interests include data science, UI/UX design, and web development!
+  Recently, I’ve been applying machine learning to exoplanet data through research @ NASA JPL, and building interactive tools for exploring and understanding data. I’m drawn to projects where both the technical side and the design really matter. Some of my other interests include data science, UI/UX design, and web development!
 </p>
 
 <p>

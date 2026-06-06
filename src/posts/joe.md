@@ -1,4 +1,4 @@
-please enjoy this closed form poem!
+i have long enjoyed writing and storytelling. below please find one of the works i'm most proud of, titled 'joe'.
 
 ---
 

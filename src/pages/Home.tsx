@@ -32,10 +32,10 @@ import myPhoto from '../assets/my-notion-face-transparent.png';
             <div className="flex flex-col gap-4 text-xl md:text-2xl font-normal text-slate-600 max-w-lg leading-relaxed">
             <p>
                 <span className="inline-block translate-y-0.5 mr-2 transition-transform hover:scale-130 duration-300">👩🏻‍💻</span> 
-                cs @ caltech. interested in machine learning & building impactful systems.
+                cs @ caltech, ml enthusiast, builder. i like creating things that make sense of complex data. 
             </p>
             <p>
-                fueled by curiosity and matcha <span className="inline-block translate-y-0.5 ml-1 transition-transform hover:scale-130 duration-300">🍵</span>
+                fueled by curiosity <span className="inline-block translate-y-0.5 ml-1 transition-transform hover:scale-130 duration-300">🍵</span>
             </p>
             </div>
             </div>
