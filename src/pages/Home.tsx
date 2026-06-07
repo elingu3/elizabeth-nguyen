@@ -15,10 +15,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 text-xl md:text-2xl font-normal text-slate-600 max-w-lg leading-relaxed">
           <p>
             <span className="inline-block translate-y-0.5 mr-2 transition-transform hover:scale-130 duration-300">👩🏻‍💻</span>
-            cs @ caltech, ml enthusiast, builder. i like creating things that make sense of complex data.
-          </p>
-          <p>
-            fueled by curiosity <span className="inline-block translate-y-0.5 ml-1 transition-transform hover:scale-130 duration-300">🍵</span>
+            cs @ caltech, ml researcher, builder. i like working on creative problems w/complex data.
           </p>
         </div>
 
@@ -30,7 +27,7 @@ export default function Home() {
       </div>
 
       <div className="md:col-span-5 flex justify-center md:justify-end">
-        <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-[#E0D7FF] flex items-center justify-center transition-transform hover:rotate-5 duration-200 md:translate-y-6">
+        <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-[#E0D7FF] flex items-center justify-center transition-transform hover:rotate-5 duration-200">
           <img
             src={myPhoto}
             alt="Elizabeth"
