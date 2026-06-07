@@ -19,7 +19,7 @@ export default function BlogPost() {
   }
 
   return (
-    <section className="py-10 max-w-2xl animate-fade-in">
+    <section className="py-14 max-w-2xl animate-fade-in">
       <Link
         to="/blog"
         className="text-slate-400 text-sm hover:text-[#6D5AE6] transition-colors duration-200 inline-block mb-10"

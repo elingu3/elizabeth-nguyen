@@ -40,8 +40,8 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <div className="max-w-5xl mx-auto px-8 py-16">
-      <h1 className="text-4xl font-bold mb-12">Experience</h1>
+    <div className="py-14">
+      <h1 className="text-4xl font-bold mb-12">experience</h1>
 
       <div className="relative border-l border-slate-200 ml-4 space-y-12">
         {experiences.map((exp, i) => (

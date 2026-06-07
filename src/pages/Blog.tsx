@@ -3,7 +3,7 @@ import { posts } from "../data/posts";
 
 export default function Blog() {
   return (
-    <section className="py-10 max-w-3xl">
+    <section className="py-14 max-w-3xl">
       <h1 className="text-3xl font-bold tracking-tight mb-4">blog</h1>
       <hr className="border-slate-200 mb-8" />
 

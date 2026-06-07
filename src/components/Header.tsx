@@ -21,11 +21,11 @@ export default function Header() {
         </Link>
 
         <div className="flex items-center gap-8 text-sm font-medium">
-          <Link to="/" className={linkStyle("/")}>Home</Link>
-          <Link to="/experience" className={linkStyle("/experience")}>Experience</Link>
-          <Link to="/about" className={linkStyle("/about")}>About</Link>
-          <Link to="/projects" className={linkStyle("/projects")}>Projects</Link>
-          <Link to="/blog" className={linkStyle("/blog")}>Blog</Link>
+          <Link to="/" className={linkStyle("/")}>home</Link>
+          <Link to="/experience" className={linkStyle("/experience")}>experience</Link>
+          <Link to="/about" className={linkStyle("/about")}>about</Link>
+          <Link to="/projects" className={linkStyle("/projects")}>projects</Link>
+          <Link to="/blog" className={linkStyle("/blog")}>blog</Link>
 
           <a
             href="/Elizabeth_Nguyen_Resume.pdf"
@@ -33,7 +33,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="ml-4 px-4 py-2 rounded-full bg-[#6D5AE6] text-white text-xs font-semibold tracking-wide hover:scale-105 transition"
           >
-            Resume
+            resume
           </a>
         </div>
       </div>
