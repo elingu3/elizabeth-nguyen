@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 text-xl md:text-2xl font-normal text-slate-600 max-w-lg leading-relaxed">
           <p>
             <span className="inline-block translate-y-0.5 mr-2 transition-transform hover:scale-130 duration-300">👩🏻‍💻</span>
-            cs @ caltech, ml researcher, builder. i like working on creative problems w/complex data.
+            cs @ caltech, machine learning researcher. i like working on creative problems with complex data.
           </p>
         </div>
 
