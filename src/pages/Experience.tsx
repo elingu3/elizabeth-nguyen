@@ -9,8 +9,8 @@ const experiences = [
     date: "Summer 2026",
     logo: nasaLogo,
     bullets: [
-      "Applied ML techniques to exoplanet datasets",
-      "Worked with researchers to analyze astronomical data",
+      "Developed a deep learning diagnostic system using convolutional neural networks to evaluate MCMC corner plots for exoplanet parameter inference, extending prior model architecture to JWST NIRSpec data for improved model evaluation and anomaly detection",
+      "Built a natural language query and retrieval system over a 14M+ record exoplanet spectroscopy database from JWST and HWST telescopes, enabling non-technical stakeholder access to large-scale astronomical data",
     ],
   },
   {

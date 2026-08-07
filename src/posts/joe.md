@@ -1,7 +1,3 @@
-i have long enjoyed writing and storytelling. below please find one of the works i'm most proud of, titled 'joe'.
-
----
-
 Joe was a cat who liked the fish  
 His owner served in a dish  
 But one fateful day  
